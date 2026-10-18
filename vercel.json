@@ -1,0 +1,4 @@
+{
+  "rewrites": [{ "source": "/yahoo", "destination": "/api/yahoo" }],
+  "functions": { "api/*.js": { "maxDuration": 30 } }
+}
